@@ -64,16 +64,13 @@ Capturas de pantalla
 
 Se incluyen capturas de pantalla del código fuente y de la web resultante:
 
-Capturas de ![alt text](image.png) y ![alt text](image-1.png)
+Capturas de facturaxslt1.xslt: ![alt text](image.png) 
+y capturas de factura1.html: ![alt text](image-1.png)
 
-Capturas de ![alt text](image-2.png) / ![alt text](image-3.png) y ![alt text](image-4.png) / ![alt text](image-5.png)
+Capturas de facturaxslt2.xslt: ![alt text](image-2.png) / ![alt text](image-3.png) 
+y capturas de factura2.html: ![alt text](image-4.png) / ![alt text](image-5.png)
 
 
 Contribuciones
 
 Si deseas mejorar o modificar las plantillas, siéntete libre de hacer un fork del repositorio y enviar un pull request.
-
-Licencia
-
-Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente.
-

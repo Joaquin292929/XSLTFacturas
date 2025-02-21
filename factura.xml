@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="facturaxslt2.xslt"?>
+<Facturae xmlns:fe="http://www.facturae.es/Facturae/2009/v3.2/">
+    <FileHeader>
+        <SchemaVersion>3.2.2</SchemaVersion>
+        <Modality>I</Modality>
+        <InvoiceIssuerType>EM</InvoiceIssuerType>
+    </FileHeader>
+    <Parties>
+        <SellerParty>
+            <PartyName>
+                <Name>Empresa Emisora</Name>
+            </PartyName>
+            <TaxIdentification>
+                <TaxIdentificationNumber>12345678A</TaxIdentificationNumber>
+            </TaxIdentification>
+        </SellerParty>
+        <BuyerParty>
+            <PartyName>
+                <Name>Empresa Receptora</Name>
+            </PartyName>
+            <TaxIdentification>
+                <TaxIdentificationNumber>87654321B</TaxIdentificationNumber>
+            </TaxIdentification>
+        </BuyerParty>
+    </Parties>
+    <Invoices>
+        <Invoice>
+            <InvoiceIssueDate>2025-02-21</InvoiceIssueDate>
+            <InvoiceTotalAmount>1000.00</InvoiceTotalAmount>
+            <InvoiceCurrencyCode>EUR</InvoiceCurrencyCode>
+            <Items>
+                <InvoiceLine>
+                    <ItemDescription>Producto 1</ItemDescription>
+                    <Quantity>2</Quantity>
+                    <UnitPriceWithoutTax>100.00</UnitPriceWithoutTax>
+                    <TotalCost>200.00</TotalCost>
+                </InvoiceLine>
+                <InvoiceLine>
+                    <ItemDescription>Producto 2</ItemDescription>
+                    <Quantity>3</Quantity>
+                    <UnitPriceWithoutTax>200.00</UnitPriceWithoutTax>
+                    <TotalCost>600.00</TotalCost>
+                </InvoiceLine>
+                <InvoiceLine>
+                    <ItemDescription>Producto 3</ItemDescription>
+                    <Quantity>1</Quantity>
+                    <UnitPriceWithoutTax>200.00</UnitPriceWithoutTax>
+                    <TotalCost>200.00</TotalCost>
+                </InvoiceLine>
+            </Items>
+        </Invoice>
+    </Invoices>
+</Facturae>
